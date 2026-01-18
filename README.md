@@ -17,6 +17,18 @@
 ![Local AI Only](https://img.shields.io/badge/AI-Local--Only-success?style=flat)
 ![No Cloud Dependency](https://img.shields.io/badge/Cloud-None-important?style=flat)
 ![Gateway Architecture](https://img.shields.io/badge/Architecture-AI%20Gateway-blue?style=flat)
+
+![PQC Aligned](https://img.shields.io/badge/PQC-Aligned-yellow)
+![Privacy Aware](https://img.shields.io/badge/Privacy-Aware-purple)
+![Standards Oriented](https://img.shields.io/badge/Standards-Oriented-blue)
+![Audit Friendly](https://img.shields.io/badge/Audit-Friendly-informational)
+![Grant Ready](https://img.shields.io/badge/Grant-Ready-brightgreen)
+![Open Research](https://img.shields.io/badge/Research-Open-lightgrey)
+![Modular Architecture](https://img.shields.io/badge/Architecture-Modular-blue)
+![Security Focused](https://img.shields.io/badge/Focus-Security-critical)
+![Public Interest Tech](https://img.shields.io/badge/Public%20Interest-Tech-success)
+
+
 UNIFIED ECOSYSTEM BADGE STRIP.py
 `markdown
 !GitDigital
