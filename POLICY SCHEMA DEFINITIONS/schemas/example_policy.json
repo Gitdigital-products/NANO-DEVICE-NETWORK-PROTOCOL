@@ -1,0 +1,32 @@
+POLICY SCHEMA DEFINITIONS/schemas/example_policy.json
+{
+  "policy_id": "GOV-SEC-AA11BB22",
+  "version": "1.0.0",
+  "description": "Quantum-Safe Memory Protection Policy",
+  "rules": [
+    {
+      "id": "MEM-001",
+      "condition": "memory_allocated > 4096",
+      "action": "deny",
+      "message": "Exceeds nano-scale memory limit"
+    },
+    {
+      "id": "CRYPTO-001",
+      "condition": "crypto_algorithm != 'kyber512' && crypto_algorithm != 'dilithium2'",
+      "action": "deny",
+      "message": "Non-quantum-safe algorithm detected"
+    },
+    {
+      "id": "TIME-001",
+      "condition": "execution_time_variance > 100",
+      "action": "quarantine",
+      "message": "Potential timing attack vulnerability"
+    }
+  ],
+  "enforcement": ["compile", "load", "runtime"],
+  "signature": {
+    "algorithm": "dilithium2",
+    "value": "a1b2c3d4e5f678901234567890123456789012345678901234567890123456",
+    "public_key": "fedcba9876543210fedcba9876543210"
+  }
+}
